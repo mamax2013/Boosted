@@ -1,0 +1,10 @@
+.cortinki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+
+  &__img {
+      margin-bottom: 20px;
+  }
+}

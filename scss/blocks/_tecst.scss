@@ -1,0 +1,27 @@
+.tecst {
+  text-align: center;
+
+  &__info {
+    margin: 50px 0 17px 0;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+  }
+  &__test {
+    margin: 0 25%;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  &__span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 2px;
+    background: #cfcfcf;
+    margin-top: 25px ;
+    margin-bottom: 44px;
+  }
+}
