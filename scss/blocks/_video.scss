@@ -1,0 +1,21 @@
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.video__tecst {
+  margin-top: 55px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.video__lini {
+  margin-bottom: 40px;
+  width: 70px;
+  height: 2px;
+  background: #cfcfcf;
+}

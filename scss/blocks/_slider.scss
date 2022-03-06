@@ -1,0 +1,27 @@
+.slider {
+  width: 1120px;
+  margin: 0 auto;
+
+  &__img {
+    margin: 0 auto;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 30px;
+    color: rgb(161, 150, 150);
+  }
+}
+
+.slider__lini {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+}
+
+.slider__liniu {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+  margin-top: 40px ;
+  margin-bottom: 20px;
+}
+
