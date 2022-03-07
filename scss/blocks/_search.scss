@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  justify-content: center;
+  grid-gap: 10%;
+  background: #f7f7f7;
+
+  &__top {
+    margin: 40px;
+  }
+
+  &__test {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  &__tecst {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+  }
+  &__menu {
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  &__item {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+  }
+}

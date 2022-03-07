@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+
+  &__wrapper {
+    margin: 15px 20px 35px 30px;
+    text-align: center;
+  }
+
+  &__test {
+    margin: 5px 0 25px;
+    font-size: 31px;
+    line-height: 36px;
+    color: #fff;
+  }
+  &__tecst {
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+  }
+}

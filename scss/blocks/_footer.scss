@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 27%;
+  margin: 20px 0;
+
+  &__tecst {
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+
+    span {
+      font-size: 12px;
+      line-height: 19px;
+      color: #ff4a32;
+    }
+  }
+}
