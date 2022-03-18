@@ -1,19 +1,24 @@
 .header {
   &__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 22px 15px;
+    flex-wrap: wrap;
   }
 
   &__nav {
     margin-right: 21%;
+    flex-wrap: wrap;
   }
 
   &__menu {
     margin: 0;
     display: flex;
     grid-gap: 22px;
+  }
+
+  &__toggler {
+    display: none;
   }
 
   &__link {
@@ -26,5 +31,8 @@
     text-transform: uppercase;
     color: #000000;
     grid-gap: 22px;
+  }
+  &__icon {
+    margin-left: auto;
   }
 }
